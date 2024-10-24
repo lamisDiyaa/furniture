@@ -36,6 +36,26 @@
     font-family: 'Josefin Sans';
     src: url('../josefin-sans/JosefinSans-Light.ttf');
   }
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f2; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #86ACA2; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #70a19a; 
+}
   /* GENERAL ELEMENTS */
 
   .section {
