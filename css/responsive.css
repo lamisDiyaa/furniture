@@ -80,6 +80,7 @@
     display: block;
     background-color: transparent;
     border: none;
+    color: #000;
   }
   .features {
     margin: 0 4rem;
@@ -140,5 +141,14 @@
   .section--sign-up .btn {
     font-size: 1.4rem;
     padding: 2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 45vh;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
