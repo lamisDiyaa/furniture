@@ -1,9 +1,31 @@
+@media screen and (max-width: 1440px) {
+  .modal {
+    width: 680px;
+  }
+  .modal__info h2 {
+    font-size: 2.8rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .header {
     padding: 0.5rem;
   }
   .nav__link:link {
     color: #000;
+  }
+  .modal {
+    width: 630px;
+
+    padding: 5rem 5rem;
+  }
+  .modal__info {
+    padding-right: 10px;
+  }
+  .modal__info h2 {
+    font-size: 2.4rem;
+
+    margin-bottom: 10px;
   }
 }
 
@@ -40,6 +62,18 @@
   }
   .btn {
     padding: 1.25rem 3rem;
+  }
+  .modal {
+    width: 530px;
+
+    padding: 5rem 4.5rem;
+  }
+
+  .modal__info h2 {
+    font-size: 2.3rem;
+  }
+  .modal__info p {
+    line-height: 1.6;
   }
 }
 
@@ -144,6 +178,39 @@
   .section--sign-up .btn {
     font-size: 1.4rem;
     padding: 2rem 3rem;
+  }
+  .modal {
+    width: 400px;
+
+    padding: 4rem;
+  }
+  .modal__info {
+    width: 100%;
+    background-image: url(../img2/banner-38.webp);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    z-index: -1;
+  }
+  .modal__info::after {
+    content: "";
+    background-color: #f3f3f32f;
+    position: absolute;
+    inset: 0;
+  }
+
+  .modal__info h2 {
+    font-size: 3rem;
+  }
+  .modal__info p {
+    font-size: 16px;
+    mgin-bottom: 30px;
+
+    color: #504f4f;
+  }
+  .modal__img {
+    display: none;
   }
 }
 
